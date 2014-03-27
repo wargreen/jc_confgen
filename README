@@ -1,0 +1,12 @@
+Use this script for create Jconvolver's configuration file for use with NON-mixer ambisonic.
+
+Usage : $cd to your impulse responce folder, and launch this script with :
+		IS = Impulse Start sample
+		ERS = Erly Reflection Start sample
+		LRS = Late Reflection Start sample
+		jname = Jack name
+		fname = impulse file name
+
+	$./jc_confgen.sh IS ERS LRS jname fname
+
+Note : This script use SOX !
