@@ -76,7 +76,7 @@ function calcule
 
 RESDIR=$(echo $PWD)
 HEADER="/cd '$RESDIR'"
-JACKIO="/convolver/new	5	4	512	500000
+JACKIO="/convolver/new	5	4	512	1000000
 /input/name   1   $jname.In.Tail
 /input/name   2   $jname.In.W
 /input/name   3   $jname.In.X
@@ -99,7 +99,7 @@ if [[ $# -lt 5 ]] || [[ "$1" = "--help" ]]
 	echo "		jname = Jack name"
 	echo "		fname = impulse file name"
 	echo ""
-	echo "   \$jc_confgen.sh IS ERS LRS jname fname"
+	echo "   \$./jc_confgen.sh IS ERS LRS jname fname"
 	echo ""
 	echo " 		This script use SOX"
 	exit 1
